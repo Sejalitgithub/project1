@@ -1,0 +1,63 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/first.jpg'); /* Specify the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #00001a;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .welcome {
+    text-align: center;
+    padding: 100px 0;
+    animation: fadeIn 1s ease; /* Animation for fading in */
+  }
+  
+  .welcome h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome p {
+    font-size: 18px;
+  }
+  
+  /* Keyframe animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
